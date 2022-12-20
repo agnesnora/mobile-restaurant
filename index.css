@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: "Smythe", cursive;
+  max-width: fit-content;
+}
+
+header {
+  background-image: url(hamburger.png);
+  background-repeat: no-repeat;
+}
+
+#menucard {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.menucard {
+  padding: 20px;
+}
+
+.orderedItems {
+  text-align: center;
+}
+.orderedFoodDetails {
+  margin: 20px;
+}
+#orderedFoodList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+#orderedFoodListLeft {
+  display: flex;
+  margin: 20px;
+}
+
+#orderedFoodListRight {
+  display: flex;
+  margin: 20px;
+}
+#totalPrice {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#yourOrder {
+  text-align: center;
+}
+hr {
+  margin: 20px;
+}
+
+/***** TYPOGRAPHY ******/
+
+#emoji {
+  font-size: 5rem;
+}
+
+#headerContainer {
+  color: white;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
