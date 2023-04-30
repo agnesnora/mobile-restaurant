@@ -1,68 +1,37 @@
 body {
   margin: 0;
   font-family: "Smythe", cursive;
-  max-width: fit-content;
+  width: 100%;
+  max-width: 600px;
 }
 
 header {
   background-image: url(hamburger.png);
+  margin: 0 auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  padding: 1.2em 1.7em;
+  color: #fff;
 }
 
-#menucard {
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-.menucard {
-  padding: 20px;
+#menuCard {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  width: 100%;
 }
 
-.orderedItems {
+.menu {
+  width: 100%;
+}
+
+.yourOrderHeader {
   text-align: center;
 }
-.orderedFoodDetails {
-  margin: 20px;
-}
-#orderedFoodList {
+
+.orderSumUp,
+.orderSumUpLeft,
+.totalSumUp {
   display: flex;
+  align-content: center;
   justify-content: space-between;
-  align-items: center;
-  margin: 20px;
-}
-#orderedFoodListLeft {
-  display: flex;
-  margin: 20px;
-}
-
-#orderedFoodListRight {
-  display: flex;
-  margin: 20px;
-}
-#totalPrice {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px;
-}
-
-#yourOrder {
-  text-align: center;
-}
-hr {
-  margin: 20px;
-}
-
-/***** TYPOGRAPHY ******/
-
-#emoji {
-  font-size: 5rem;
-}
-
-#headerContainer {
-  color: white;
-  padding: 30px;
-}
-
-h2 {
-  font-size: 28px;
 }
